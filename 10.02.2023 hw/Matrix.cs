@@ -124,5 +124,10 @@ namespace _10._02._2023_hw
                     if (m1.Content[x, y] == m2.Content[x, y]) return false;
             return true;
         }
+        public int this[int i1, int i2]
+        {
+            get => matrix[i1, i2];
+            set => matrix[i1, i2] = value;
+        }
     }
 }
